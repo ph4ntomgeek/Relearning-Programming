@@ -1,3 +1,6 @@
+require_relative "my_functions"
+import functions
+
 counter = 1
 while counter = 1
   #first step is to get the inputs
@@ -17,16 +20,16 @@ while counter = 1
 
   case op
     when "+"
-    puts (num1 + num2)
+    functions.add(num1, num2)
     
     when "-"
-    puts (num1 - num2)
+    functions.sub(num1, num2)
     
     when "*"
-    puts (num1 / num2)
+    functions.multiply(num1, num2)
     
     when "÷"
-    puts (num1 / num2)
+    functions.divide(num1, num2)
     
     end
 end
