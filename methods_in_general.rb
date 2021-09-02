@@ -39,3 +39,4 @@ include? "Another string"
 index(A)--->location of A
 [a,b] range from a to b except b
 stringname[position_of_character_to_print]
+=end
