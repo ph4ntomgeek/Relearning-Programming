@@ -56,4 +56,15 @@ end
 6.times do |index|
    Code
 end
+
+example:
+
+Exponent number
+Def power_function(foo, bar)
+result = 1
+bar.times do |index|
+    result = result*foo
+end
+return result
+
 =end
